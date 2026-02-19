@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drew Dow | Professional Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header, main, footer {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        header {
+            background: #ffffff;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #0077cc;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            background: #ffffff;
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 6px;
+        }
+
+        img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9rem;
+            margin-top: 30px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            padding: 8px;
+            margin-top: 5px;
+            font-size: 1rem;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #0077cc;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005fa3;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Drew Dow</h1>
+    <p>A motivated student focused on web development, programming, and building clean, functional digital projects.</p>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+</header>
+
+<main>
+
+    <section id="about">
+        <h2>About</h2>
+        <img src="https://via.placeholder.com/150" alt="Professional headshot placeholder of Drew Dow">
+
+        <p>
+            I am currently developing my skills in programming and web development. 
+            I enjoy solving technical problems and building structured, clean, and user-friendly websites.
+        </p>
+
+        <p>
+            My goal is to strengthen my knowledge of HTML, CSS, Python, and scripting languages 
+            while building real-world projects that demonstrate professionalism and attention to detail.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5 Semantic Structure</li>
+            <li>CSS Styling and Layout</li>
+            <li>Python Programming</li>
+            <li>PowerShell Scripting</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <article>
+            <h3>Tuition Projection Calculator</h3>
+            <p>
+                A Python program that calculates projected tuition increases using loops 
+                and percentage-based growth.
+            </p>
+        </article>
+
+        <article>
+            <h3>System Information Logger</h3>
+            <p>
+                A PowerShell script that creates a desktop folder and generates 
+                a system information log file automatically.
+            </p>
+        </article>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required minlength="2">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required minlength="10"></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Drew Dow</p>
+    <p>
+        Connect with me on 
+        <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+    </p>
+</footer>
+
+</body>
+</html>
